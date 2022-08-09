@@ -1,26 +1,36 @@
-# Getting Started with Create React App
+# Portfolio
 
-
+```
 yarn create react-app my-app --template typescript
+```
 
-set up tailwind
+### Set up Tailwind
 
+```
 yarn add -D tailwindcss postcss autoprefixer
 
 npx tailwindcss init -p
+```
 
-/** @type {import('tailwindcss').Config} */ 
+```
+index.css
+
+/** @type {import('tailwindcss').Config} \*/
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+content: [
+"./src/**/\*.{js,jsx,ts,tsx}",
+],
+theme: {
+extend: {},
+},
+plugins: [],
 }
+```
 
+```
+tailwind.config.js
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
