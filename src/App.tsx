@@ -10,6 +10,9 @@ function App() {
       <Container>
         <Hero />
         <About />
+        <div className="w-10/12 md:w-6/12 h-48 rounded-xl mx-auto border-2 border-[#efefef] flex justify-center items-center mb-20">
+        Skills & Certifications coming soon...
+        </div>
       </Container>
     </div>
   );
