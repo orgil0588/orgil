@@ -6,7 +6,7 @@ import github from "../assets/icons/github.svg";
 const Hero = () => {
   return (
     <div className="w-full h-screen grid md:grid-cols-2 gap-4 items-center">
-      <div className="mt-48">
+      <div className="mt-48 md:mt-0">
         <div className="flex items-center justify-start space-x-4">
           <a href="/">
             <img className="w-[24px] h-[24px]" src={facebook} alt="facebook" />

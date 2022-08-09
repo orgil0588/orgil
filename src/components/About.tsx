@@ -1,7 +1,7 @@
 import { about, timeline } from "./Data";
 const About = () => {
   return (
-    <div className="w-6/12 mx-auto mt-10  pb-20">
+    <div className="w-10/12 md:w-6/12 mx-auto mt-40 md:mt-10 pb-20">
       <h1 className="text-[28px] font-bold text-center mt-16">About me</h1>
       <div className="text-center text-[#5E5E5E] font-medium">
         {about.map((info) => (
